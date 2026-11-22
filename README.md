@@ -288,6 +288,7 @@ Methods for integrating spatial data with other modalities such as single-cell R
 Large pre-trained models designed for spatial biology that learn general representations from large-scale spatial datasets.
 
 - [Nicheformer](https://github.com/theislab/nicheformer) - Transformer pre-trained on dissociated and spatial single-cell data from over 110 million cells, enabling cross-tissue niche characterization through transfer learning (bioRxiv, 2024).
+- [DeepSpot-M kidney (KPMP)](https://github.com/ratschlab/projects2026-kidney-kpmp-analysis) - Virtual spatial transcriptomics from H&E for KPMP kidney biopsies, linking histopathology to molecular programs of kidney injury, repair, fibrosis and kidney function (medRxiv, 2026) [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)].
 - [Novae](https://github.com/MICS-Lab/novae) - Graph foundation model for spatial transcriptomics that learns tissue architecture representations transferable across technologies and tissues (Nature Machine Intelligence, 2024).
 - [CellSAM](https://github.com/vanvalenlab/cellSAM) - Segment Anything Model adapted for cell segmentation, providing zero-shot segmentation capability across diverse microscopy image types (bioRxiv, 2024).
 - [DECIPHER](https://github.com/sharplab-pcg/DECIPHER) - Multimodal foundation model integrating spatial transcriptomics with histology images for joint tissue representation learning (bioRxiv, 2024).
@@ -374,6 +375,8 @@ Standard benchmark datasets, tissue atlases, and data repositories for spatial o
 - [Human Cell Atlas](https://www.humancellatlas.org/) - International consortium building comprehensive reference maps of all human cells including spatial tissue maps from multiple organs (eLife, 2017).
 - [TCGA virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas) - DeepSpot-M predicted transcriptome-wide ST for TCGA H&E (FF + FFPE); 28,664 slides / 32 cancer types / 295.3M spots (gated) [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)].
 - [HEST Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics) - DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium H&E slides (~13.3M cells; gated) [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)].
+- [KPMP virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas) - DeepSpot-M predicted transcriptome-wide ST for KPMP kidney biopsy H&E; 1,534 slides / 476 participants / ~5.46M spots, with clinical and histopathological annotations (gated) [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)].
+- [KPMP Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics) - DeepSpot-M predicted transcriptome-wide ST for 49 KPMP 10x Xenium kidney H&E sections (~1.64M cells, with the measured Xenium panel; gated) [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)].
 
 ### Repositories
 
